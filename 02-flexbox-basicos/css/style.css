@@ -103,3 +103,75 @@ h1, h2 {
 
     align-items: flex-start;
 }
+/* 6 */
+.d-flex-6 {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    align-items: flex-start;
+    justify-content: center;
+}
+/* 7 */
+.d-flex-7 {
+    display: flex;
+    height: 800px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* 8 */
+.d-flex-8 {
+    display: flex;
+
+}
+.d-flex-8 .box {
+    min-width: 200px;
+}
+/* 9 */
+.d-flex-9 {
+    display: flex;
+    justify-content: space-between;
+}
+.d-flex-9 .box {
+    flex-basis: calc( 20% - 1rem );
+}
+.d-flex-9 .box:nth-child(1) {
+    flex-basis: calc( 60% - 1rem );
+}
+/* 10 */
+.d-flex-10 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.d-flex-10 .box {
+    flex-basis: 33.3%;
+}
+/* 11 */
+.d-flex-11 {
+    display: flex;
+}
+.d-flex-11 .box {
+    flex-grow: 1;
+}
+.d-flex-11 .box:nth-child(2) {
+    flex-grow: 2;
+}
+/* 12 */
+.d-flex-12 {
+    display: flex;
+}
+.d-flex-12 .box {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+.d-flex-12 .box:nth-child(3) {
+    flex-shrink: 2;
+}
+/* 13 */
+.d-flex-13 {
+    display: flex;
+}
+
+.d-flex-13 .box {
+    flex: 1;
+}
