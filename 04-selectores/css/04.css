@@ -1,0 +1,10 @@
+.header  {
+	font-size: 5rem;
+}
+.header .descripcion {
+	color: red;
+}
+
+.descripcion {
+	color: blue;
+}

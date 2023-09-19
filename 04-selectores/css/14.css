@@ -1,0 +1,9 @@
+/* Para no seleccionar varios elementos, se pueden separar por comas */
+p:not(.texto, .oferta) {
+	color: red;
+}
+
+/* O también se pueden seleccionar poniéndolo justo a continuación */
+p:not(.heading):not(.descripcion) {
+	color: rgb(133, 173, 73);
+}
