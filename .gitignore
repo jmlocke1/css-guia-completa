@@ -1,1 +1,4 @@
+# Ficheros específicos de Apple
 
+__MACOSX
+.DS_Store
