@@ -14,3 +14,8 @@ cd tech-pro
 git push
 cd ..
 cd ..
+cd 08-arquitectura
+cd arquitectura-bosque
+git push
+cd ..
+cd ..

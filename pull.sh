@@ -15,3 +15,8 @@ cd tech-pro
 git pull
 cd ..
 cd ..
+cd 08-arquitectura
+cd arquitectura-bosque
+git pull
+cd ..
+cd ..

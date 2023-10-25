@@ -16,6 +16,11 @@ $noSubdomain = [
 		'repo' => 'git@github.com:jmlocke1/tech-pro.git',
 		'url' => '07-audifonos'
 	],
+	[
+		'name' => 'arquitectura-bosque',
+		'repo' => 'git@github.com:jmlocke1/arquitectura-bosque.git',
+		'url' => '08-arquitectura'
+	]
 ];
 // Funciones
 function escribe($fichero, $texto) {
