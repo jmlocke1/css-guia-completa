@@ -86,14 +86,26 @@ img {
 @media(min-width: 768px) {
     .productos__grid {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
     }
 }
-
+@media(min-width: 912px) {
+    .productos__grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
 .producto {
     background-color: var(--blanco);
     margin-bottom: 1rem;
+}
+@media(min-width: 768px) {
+    .producto {
+        margin-bottom: 0;
+    }
+}
+.producto:last-of-type {
+    margin-bottom: 0;
 }
 .producto__contenido {
     padding: 2rem;
@@ -114,6 +126,11 @@ img {
     color: green;
     font-weight: 900;
     margin: 0;
+}
+
+.producto__precio--oferta {
+    color: red;
+    text-decoration: line-through;
 }
 
 .producto__boton {
