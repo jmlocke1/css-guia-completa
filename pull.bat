@@ -17,3 +17,8 @@ cd arquitectura-bosque
 git pull
 cd ..
 cd ..
+cd 10-nucleus
+cd nucleus
+git pull
+cd ..
+cd ..

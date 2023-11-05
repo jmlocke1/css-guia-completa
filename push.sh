@@ -21,3 +21,8 @@ cd arquitectura-bosque
 git push
 cd ..
 cd ..
+cd 10-nucleus
+cd nucleus
+git push
+cd ..
+cd ..

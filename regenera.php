@@ -1,7 +1,14 @@
 <?php
 // Definimos el directorio padre del sistema
 define("DIR_ROOT", __DIR__);
-// Declaraciones de repositorios
+
+/**
+ * Declaraciones de repositorios.
+ * La estructura es la siguiente:
+ * 		name: Nombre del repositorio
+ * 		repo: repositorio github
+ * 		url: ruta relativa hasta el repositorio. Se puede añadir una o más carpetas, luego se  crean las necesarias
+ */
 $subdomain = [
 	
 ];
@@ -20,6 +27,11 @@ $noSubdomain = [
 		'name' => 'arquitectura-bosque',
 		'repo' => 'git@github.com:jmlocke1/arquitectura-bosque.git',
 		'url' => '08-arquitectura'
+	],
+	[
+		'name' => 'nucleus',
+		'repo' => 'git@github.com:jmlocke1/nucleus.git',
+		'url' => '10-nucleus'
 	]
 ];
 // Funciones
