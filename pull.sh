@@ -25,3 +25,8 @@ cd nucleus
 git pull
 cd ..
 cd ..
+cd 11-cafeteria
+cd cafeteria
+git pull
+cd ..
+cd ..

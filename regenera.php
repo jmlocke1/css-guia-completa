@@ -32,6 +32,11 @@ $noSubdomain = [
 		'name' => 'nucleus',
 		'repo' => 'git@github.com:jmlocke1/nucleus.git',
 		'url' => '10-nucleus'
+	],
+	[
+		'name' => 'cafeteria',
+		'repo' => 'git@github.com:jmlocke1/cafeteria.git',
+		'url' => '11-cafeteria'
 	]
 ];
 // Funciones

@@ -24,3 +24,8 @@ cd nucleus
 git push
 cd ..
 cd ..
+cd 11-cafeteria
+cd cafeteria
+git push
+cd ..
+cd ..
