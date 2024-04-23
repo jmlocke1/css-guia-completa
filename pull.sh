@@ -1,7 +1,7 @@
 #!/bin/bash
 # -*- ENCODING: UTF-8 -*-
 
-@REM Primero obtenemos los cambios del repositorio actual
+# Primero obtenemos los cambios del repositorio actual
 git pull
 # Repositorios sin subdominio
 
