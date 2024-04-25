@@ -37,7 +37,12 @@ $noSubdomain = [
 		'name' => 'cafeteria',
 		'repo' => 'git@github.com:jmlocke1/cafeteria.git',
 		'url' => '11-cafeteria'
-	]
+	],
+	[
+		'name' => 'deliveryapp',
+		'repo' => 'git@github.com:jmlocke1/deliveryapp.git',
+		'url' => '12-deliveryapp'
+	],
 ];
 // Funciones
 function escribe($fichero, $texto) {

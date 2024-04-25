@@ -27,3 +27,8 @@ cd cafeteria
 git pull
 cd ..
 cd ..
+cd 12-deliveryapp
+cd deliveryapp
+git pull
+cd ..
+cd ..

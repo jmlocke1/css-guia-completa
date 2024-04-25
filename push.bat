@@ -29,3 +29,8 @@ cd cafeteria
 git push
 cd ..
 cd ..
+cd 12-deliveryapp
+cd deliveryapp
+git push
+cd ..
+cd ..
